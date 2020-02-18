@@ -2,8 +2,8 @@
 	$nombre = $_POST["nombre"];
 	$apellido = $_POST["apellido"];
 	$email = $_POST["email"];
-
-	$servername="localhost";
+	//Ip del ordenador en el que corra la base de datos
+	$servername="192.168.1.244";
 	$username="root";
 	$password="";
 	$dbname="CarlosDB";
