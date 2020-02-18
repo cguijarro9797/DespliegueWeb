@@ -3,8 +3,8 @@
 	$nuevon = $_POST["nuevon"];
 	$nuevoa = $_POST["nuevoa"];
 	$nuevoe = $_POST["nuevoe"];
-
-	$servername="localhost";
+	//Ip del ordenador donde corra la base de datos
+	$servername="192.168.1.244";
 	$username="root";
 	$password="";
 	$dbname="CarlosDB";
