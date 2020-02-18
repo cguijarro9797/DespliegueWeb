@@ -28,6 +28,8 @@ SET time_zone = "+00:00";
 -- Estructura de tabla para la tabla `guests`
 --
 
+create database carlosdb;
+
 CREATE TABLE `guests` (
   `id` int(6) NOT NULL,
   `nombre` varchar(30) NOT NULL,
