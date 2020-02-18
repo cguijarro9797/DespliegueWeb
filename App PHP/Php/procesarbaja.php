@@ -1,7 +1,7 @@
 <?php 
 	$nombre = $_POST["nombre"];
-
-	$servername="localhost";
+	//Ip del ordenador en el que tengamos la base de datos
+	$servername="192.168.1.244";
 	$username="root";
 	$password="";
 	$dbname="CarlosDB";
